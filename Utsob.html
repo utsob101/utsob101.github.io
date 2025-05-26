@@ -1,0 +1,2293 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="style.css" rel="stylesheet"/>
+<!-- =====BOX ICONS===== -->
+<link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
+<link "image="" href="images/Other Photo/Utsob.png" rel="icon" type="" x-icon"=""/>
+<title>Utsob</title>
+</head>
+<body>
+<!--===== HEADER =====-->
+<header class="l-header">
+<nav class="nav bd-grid">
+<div>
+<a class="nav__logo" href="https://www.linkedin.com/in/utsob/" target="_blank">Utsob</a>
+</div>
+<div class="nav__menu" id="nav-menu">
+<ul class="nav__list">
+<li class="nav__item"><a class="nav__link active" href="#home">Home</a></li>
+<li class="nav__item"><a class="nav__link" href="#about">About</a></li>
+<li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
+<li class="nav__item"><a class="nav__link" href="#work">Certificate</a></li>
+<li class="nav__item"><a class="nav__link" href="#Experience">Experience</a></li>
+<li class="nav__item"><a class="nav__link" href="#Video">Video</a></li>
+<li class="nav__item"><a class="nav__link" href="#Photo">Photo</a></li>
+<li class="nav__item"><a class="nav__link" href="#Seminar">Seminar</a></li>
+<li class="nav__item"><a class="nav__link" href="#Project">Project</a></li>
+<li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
+</ul>
+</div>
+<div class="nav__toggle" id="nav-toggle">
+<i class="bx bx-menu"></i>
+</div>
+</nav>
+</header>
+<main class="l-main">
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--===== HOME =====-->
+<section class="home bd-grid" id="home">
+<div class="home__data">
+<h1 class="home__title">Assalamualaikum<br/>I'm<span class="home__title-color"> Utsob</span>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<br/>
+<!-- Element to contain animated typing -->
+<span id="typing-animation"></span>
+<script>
+
+						// Initialize the typing animation
+						const typingAnimationElement = document.getElementById('typing-animation');
+
+						// Create an array of typing text
+						const typingTexts = [
+						'Problem Solver ',
+            'Programmer  ',
+            'Software Engineer  ',
+						'Freelancer   ',
+            'Tech Entrepreneur ',
+            'Digital Marketer',
+            'Tech Enthusiast '
+						];
+
+						// Create a function to display the typing animation for a given text
+						function playTypingAnimation(text) {
+						// Loop through each character and add it to the element
+						for (let i = 0; i < text.length; i++) {
+							setTimeout(() => {
+                if(typingAnimationElement.textContent === '|') typingAnimationElement.textContent = '';
+							  typingAnimationElement.textContent += text[i];
+							}, i * 200); // Increase the delay to slow down the typing animation
+						}
+
+						// Once the animation is complete, reset the text and start over
+						setTimeout(() => {
+							typingAnimationElement.textContent = '|';
+							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+						}, text.length * 200);
+						}
+
+						// Start the typing animation loop
+						playTypingAnimation(typingTexts[0]);
+
+						</script>
+</h1>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<a class="button" href="https://www.linkedin.com/in/utsob/" target="_blank">Contact me</a>
+</div>
+<div class="home__social">
+<a class="home__social-icon" href="https://www.linkedin.com/in/utsob/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+<a class="home__social-icon" href="https://www.facebook.com/utsob101" target="_blank"><i class="bx bxl-facebook"></i></a>
+<a class="home__social-icon" href="https://x.com/utsob1010" target="_blank"><i class="bx bxl-twitter"></i></a>
+<a class="home__social-icon" href="https://github.com/utsob101" target="_blank"><i class="bx bxl-github"></i></a>
+</div>
+<div class="home__img">
+<svg class="home__blob" viewbox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<mask id="mask0" mask-type="alpha">
+<path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"></path>
+</mask>
+<g mask="url(#mask0)">
+<path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"></path>
+<image class="home__blob-img" href="images/Other Photo/Utsob_1.png" x="50" y="60"/>
+</g>
+</svg>
+</div>
+</section>
+<br/>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--Image carousel-->
+<div class="slider">
+<div class="slides">
+<!--Radio Buttons-->
+<input id="radio1" name="radio-btn" type="radio"/>
+<input id="radio2" name="radio-btn" type="radio"/>
+<input id="radio3" name="radio-btn" type="radio"/>
+<input id="radio4" name="radio-btn" type="radio"/>
+<!--Fim Radio Buttons-->
+<!--Slides em imagens-->
+<div class="slide first">
+<img alt="imgem1" loading="lazy" src="images/Photo Gallery/NASA 1.jpg"/>
+</div>
+<div class="slide">
+<img alt="imgem2" loading="lazy" src="images/Photo Gallery/BITPA 1.jpg"/>
+</div>
+<div class="slide">
+<img alt="imgem3" loading="lazy" src="images/Photo Gallery/BITPA 2.jpg"/>
+</div>
+<div class="slide">
+<img alt="imgem1" loading="lazy" src="images/Photo Gallery/BITPA 4.jpg"/>
+</div>
+<!--Fim Slides em imagens-->
+<!--Bolinhas de navegação-->
+<div class="navegacao-auto">
+<div class="auto-btn1"></div>
+<div class="auto-btn2"></div>
+<div class="auto-btn3"></div>
+<div class="auto-btn4"></div>
+</div>
+</div>
+<div class="manual-navegacao">
+<label class="manual-btn" for="radio1"></label>
+<label class="manual-btn" for="radio2"></label>
+<label class="manual-btn" for="radio3"></label>
+<label class="manual-btn" for="radio4"></label>
+</div>
+</div>
+<script src="script.js"></script>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--===== Quote =====-->
+<section class="home bd-grid quote" id="home">
+<div class="home__data">
+<h3 <p="" align="center"><b>“There is no end to education. It is not that you read a book, pass an examination, and finish with education. The whole of life, from the moment you are born to the moment you die, is a process of learning.” — Jiddu Krishnamurti</b>
+</h3>
+</div>
+</section>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--===== ABOUT =====-->
+<section class="about section" id="about">
+<h2 class="section-title">About</h2>
+<div class="about__container bd-grid">
+<div class="about__img">
+<img alt="" loading="lazy" src="images/Other Photo/Utsob.png"/>
+</div>
+<div class="about_text_container">
+<h2 class="about__subtitle">I'm Utsob</h2>
+<p class="about__text">A dedicated and passionate Web developer. Currently, I am Studying Bangladesh University of Business and Technology (BUBT). Now I'm pursuing my degree with a strong focus on becoming a proficient Software Engineer. I have honed my
+                        skills in various programming languages, algorithms, and data structures throughout my academic career. I am constantly exploring new technologies and methodologies to stay up-to-date with the ever-evolving landscape of Software
+                        Engineering.
+                    </p>
+<br/>
+<p align="left">
+<a class="button" href="https://www.linkedin.com/in/utsob/" target="_blank">Learn More!</a>
+</p>
+</div>
+</div>
+
+</section>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--===== SKILLS =====-->
+<section class="skills section" id="skills">
+<h2 class="section-title">Skills</h2>
+<div class="skills__container bd-grid">
+<div>
+<h2 class="skills__subtitle">Profesional Skills</h2>
+<p class="skills__text"><b>Dedicated Web Devloper learner with 3+ years' experience</b></p>
+<div class="skills__data">
+<div class="skills__names">
+<span class="skills__name">C &amp; C++ &amp; Python</span>
+</div>
+<div class="skills__bar skills__js" style="width: 80%;"></div>
+<div>
+<span class="skills__percentage">80%</span>
+</div>
+</div>
+<div class="skills__data">
+<div class="skills__names">
+<span class="skills__name">HTML</span>
+</div>
+<div class="skills__bar skills__js" style="width: 95%;"></div>
+<div>
+<span class="skills__percentage">95%</span>
+</div>
+</div>
+<div class="skills__data">
+<div class="skills__names">
+<span class="skills__name">CSS &amp; Bootstrap</span>
+</div>
+<div class="skills__bar skills__js" style="width: 85%;"></div>
+<div>
+<span class="skills__percentage">85%</span>
+</div>
+</div>
+<div class="skills__data">
+<div class="skills__names">
+<span class="skills__name">javascript</span>
+</div>
+<div class="skills__bar skills__js" style="width: 80%;"></div>
+<div>
+<span class="skills__percentage">80%</span>
+</div>
+</div>
+<div class="skills__data">
+<div class="skills__names">
+<span class="skills__name">React.js &amp; Node.js</span>
+</div>
+<div class="skills__bar skills__js" style="width: 75%;"></div>
+<div>
+<span class="skills__percentage">75%</span>
+</div>
+</div>
+<div class="skills__data">
+<div class="skills__names">
+<span class="skills__name">MongoDB</span>
+</div>
+<div class="skills__bar skills__js" style="width: 75%;"></div>
+<div>
+<span class="skills__percentage">75%</span>
+</div>
+</div>
+<div class="skills__data">
+<div class="skills__names">
+<span class="skills__name">DevOps &amp; Docker</span>
+</div>
+<div class="skills__bar skills__js" style="width: 75%;"></div>
+<div>
+<span class="skills__percentage">50%</span>
+</div>
+</div>
+<div class="skills__data">
+<div class="skills__names">
+<span class="skills__name">Java &amp; Dart</span>
+</div>
+<div class="skills__bar skills__js" style="width: 75%;"></div>
+<div>
+<span class="skills__percentage">60%</span>
+</div>
+</div>
+<div class="skills__data">
+<div class="skills__names">
+<span class="skills__name">Git &amp; GitHub</span>
+</div>
+<div class="skills__bar skills__js" style="width: 85%;"></div>
+<div>
+<span class="skills__percentage">85%</span>
+</div>
+</div>
+</div>
+<div>
+<!--    <img src="work0.jpg" alt="" class="skills__img">  -->
+<img align="right" alt="Coding" loading="lazy" src="images/Other Photo/programmer.gif" width="400"/>
+</div>
+</div>
+</section>
+<!------------------------------------------------------------------------------------------------------------------------->
+<section class="skills section" id="skills">
+<!--  <h2 class="section-title">Skills</h2>   -->
+<div class="skills__container bd-grid">
+<div>
+<!--    <img src="work0.jpg" alt="" class="skills__img">  -->
+<img align="left" alt="Coding" loading="lazy" src="images/Other Photo/Presentaion.gif" width="400"/>
+</div>
+<div>
+<h2 class="skills__subtitle">Soft Skill</h2>
+<p class="skills__text"><b>“Soft skills are like oil that greases the wheels of success.”</b></p>
+<div class="skills__data">
+<div class="skills__names">
+<span class="skills__name">Communication &amp; Presentation</span>
+</div>
+<div class="skills__bar skills__js" style="width: 80%;"></div>
+<div>
+<span class="skills__percentage">80%</span>
+</div>
+</div>
+<div class="skills__data">
+<div class="skills__names">
+<span class="skills__name">Team Lead &amp; People Management</span>
+</div>
+<div class="skills__bar skills__js" style="width: 75%;"></div>
+<div>
+<span class="skills__percentage">75%</span>
+</div>
+</div>
+<div class="skills__data">
+<div class="skills__names">
+<span class="skills__name">Networking</span>
+</div>
+<div class="skills__bar skills__js" style="width: 90%;"></div>
+<div>
+<span class="skills__percentage">90%</span>
+</div>
+</div>
+<div class="skills__data">
+<div class="skills__names">
+<span class="skills__name">Self Learner &amp; Self Motivated</span>
+</div>
+<div class="skills__bar skills__js" style="width: 80%;"></div>
+<div>
+<span class="skills__percentage">80%</span>
+</div>
+</div>
+<div class="skills__data">
+<div class="skills__names">
+<span class="skills__name">Critical Thinker &amp; Problem Solver</span>
+</div>
+<div class="skills__bar skills__js" style="width: 85%;"></div>
+<div>
+<span class="skills__percentage">85%</span>
+</div>
+</div>
+<div class="skills__data">
+<div class="skills__names">
+<span class="skills__name">Multitasking Ability &amp; Adaptability</span>
+</div>
+<div class="skills__bar skills__js" style="width: 80%;"></div>
+<div>
+<span class="skills__percentage">70%</span>
+</div>
+</div>
+<div class="skills__data">
+<div class="skills__names">
+<span class="skills__name">Competent Hardworking Dedicated</span>
+</div>
+<div class="skills__bar skills__js" style="width: 85%;"></div>
+<div>
+<span class="skills__percentage">85%</span>
+</div>
+</div>
+<div class="skills__data">
+<div class="skills__names">
+<span class="skills__name">Good Verbal &amp; Written Communication Skills in English</span>
+</div>
+<div class="skills__bar skills__js" style="width: 85%;"></div>
+<div>
+<span class="skills__percentage">80%</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--===== Certificate =====-->
+<section class="work section" id="work">
+<h2 class="section-title">Certificate</h2>
+<div class="work__container bd-grid">
+<a>
+<img alt="" class="work__img" loading="lazy" src="images/Certificate/2024_ICPC_2023_Asia_Dhaka_Preli_PLACE.jpg"/>
+<!-- <p class="work__caption"> Hello World </p> -->
+</a>
+<a>
+<img alt="" class="work__img" loading="lazy" src="images/Certificate/2024_ICPC_2023_Asia_Dhaka_Preli_Utsob_PLACE.jpg"/>
+</a>
+<a>
+<img alt="" class="work__img" loading="lazy" src="images/Certificate/Cython_Codecraft.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/NASA Golobal Participant Certificae.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/NASA Local Participant Certificae.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/AI প্রযুক্তি Career Paticipant Certificate.png"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Intra-University Programming Contest.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/BUBT Cyber Skills Bootcamp.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Software Development Competition.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Creative it Institute Full Stack Development with MERN Certificate.png"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Cloud Engineering Certificate.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/GP Academy 1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/GP Academy 2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/GP Academy 3.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/GP Academy 4.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Data_Science_Foundations_1_C15208.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Utsob_Product_Management_Basics_1-C9225.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/UX_Fundamentals_1_C15200.jpg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Certificate/Pathway to_Software_Engineering.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Cyber_Ethical_Hacking_and_Software_Security_Management_Participants_Certificates.png"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/4_Day_Hands_On_Training_on_Data_&amp;_Business_Analytics.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/python_web_fundamentals_1_C15210.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/SQA_Crash_Course_1_C15209.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Coding Problem Solving 1-C16064.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Muktopaath Digital Literacy We Think Digita.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Muktopaath Digital Security Essentials.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Digital Marketing Certificate.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Learn Your First Python Code 1-C15664.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/PHP Crash Course 1-C15645.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Digital_Marketing_Fundamentals_1_C15201.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Muktopaath Linkedin.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Muktopaath Email Etiquette.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Muktopaath YouTubing.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Data Analytics.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/django for beginners.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Webflow.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Microsoft Word Basics.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/YUNet.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/JUST_Rotarac_District_Science_Fair_2019.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/STEM_Empowerment_Bootcamp_E_Certificate.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Navigating_ERP_Systems_for_Seamless_IT_Administration_and_Unlocking_Promising_Career_Opportunities.png"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Connecting_Contributing_and_Leading_Exploring_the_Rewards_of_Volunteering_in_IEEE_Congresses.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/ChatGPT_Basics_Usage_Prospects.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/certificate_instructor_sabur-khan.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Certificate_instructor_sabur_khan.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Common_Etiquette_of_Life_A_30_Minutes_Lesson.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Effective_Use_of_Google.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Scout_ID_AB8965.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Nijer_Bolar_Moto_Akta_Golpo_Foundation_Certificate_93633_batch_17.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Cantonment_College_Jashore_Display_Certificate_2018.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/BUBT_UNIT_FACE_Career_Talk_3.0_with_Shahnawaz_Hossain_Jay_Certificate.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Art_of_Job_Searching_&amp;_Applications.jpg"/>
+</a>
+
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/International_Congress_on_Recent_Trends_in_Computer_Science_2023_ICRCS_2023_from_16th_to_17th_March_2023.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Certificate_of_Participation_IEEE_A_Gateway_for_Worldwide_Successful_Engineering_Career in 4IR.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Robotics_Camp_Certificate.jpeg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Digital_Literacy_Course_82447990.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/OVID-19_Awareness_and_Prevention_Certificate202_1015231057.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Bangladesh_Physics_Olympiad_2020.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Run Your First Code with JavaScript.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/International Fire Safety and Security Expo 2024.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/44th Bangladesh National School and Madrasa Winter Sports Competition 2014.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/45th Bangladesh National School and Madrasa Summer Sports Competition 2016.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/46th Bangladesh National School and Madrasa Winter Sports Competition 2016.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Abdul Gafur 2nd Regional Comdeca 2017.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/5th National Power &amp; Energy Camp 2016.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Upazila Scout Assembly 2014.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/New Year New Mission Batch.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Certificate International Congress on Recent Trends in Computer Science - 2024.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Life Transformation Batch.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Certificate_MACHINE_LEARNING_AND_INTELLIGENT_SOFTWARE_SYSTEMS.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Learning_Programming_in_python_20-0565.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Certificate/Effective_Interview_Skills_&amp;_How_to_Rock_Your_Linkedin_Profile.jpg"/>
+</a>
+</div>
+
+</section>
+<br/>
+<!--    
+      <section align="center">
+      <a href="https://www.linkedin.com/in/utsob/details/certifications/" target="_blank" class="button">Find More!</a>
+      </section><br>
+      -->
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--===== Work Experience=====-->
+<section class="Experience section" id="Experience">
+<h2 class="section-title">Work Experience</h2>
+<b>
+<p align="center" class="skills__text">“The only source of knowledge is experience” — Albert Einstein</p>
+</b>
+<div class="imageBox">
+<img alt="Coding" loading="lazy" src="images/Other Photo/Experience.gif" width="400"/>
+</div>
+<div class="skills__container bd-grid">
+<div>
+<div class="skills__data" style="display: flex; justify-content: center; align-items: center; height: 90px;">
+<div class="skills__names" style="text-align: center;">
+<span class="skills__name">Participated The World largest Scientific Hackathon at NASA Space Apps Challenge Bangladesh 2024 (3rd to 4th Oct 2024)</span>
+</div>
+</div>
+<div class="skills__data" style="display: flex; justify-content: center; align-items: center; height: 40px;">
+<div class="skills__names" style="text-align: center;">
+<span class="skills__name">Campus Ambassador at bdapps (Jan 2024 to Present)</span>
+</div>
+</div>
+<div class="skills__data" style="display: flex; justify-content: center; align-items: center; height: 70px;">
+<div class="skills__names" style="text-align: center;">
+<span class="skills__name">Volunteer at BITPA Conference 2024 (30 Nov 2024) <br/> (Bangladesh IT Professionals Association - BITPA )</span>
+</div>
+</div>
+<div class="skills__data" style="display: flex; justify-content: center; align-items: center; height: 90px;">
+<div class="skills__names" style="text-align: center;">
+<span class="skills__name">Volunteer at Clemon presents ActivePulse 10K powered by GIGABYTE (ActivePulse Bangladesh - 13 Nov 2024)</span>
+</div>
+</div>
+<div class="skills__data" style="display: flex; justify-content: center; align-items: center; height: 60px;">
+<div class="skills__names" style="text-align: center;">
+<span class="skills__name">Ambassador International Congress on Recent Trends in Computer Science - 2024 Present</span>
+</div>
+</div>
+<div class="skills__data" style="display: flex; justify-content: center; align-items: center; height: 60px;">
+<div class="skills__names" style="text-align: center;">
+<span class="skills__name">Executive Member at IEEE BUBT Student Branch <br/> (Jan 2023 to Present)</span>
+</div>
+</div>
+<div class="skills__data" style="display: flex; justify-content: center; align-items: center; height: 60px;">
+<div class="skills__names" style="text-align: center;">
+<span class="skills__name">General Member at BUBT IT Club <br/> (Jan 2023 to Present)</span>
+</div>
+</div>
+<div class="skills__data" style="display: flex; justify-content: center; align-items: center; height: 60px;">
+<div class="skills__names" style="text-align: center;">
+<span class="skills__name">Executive Committee Member at BASIS Student Forum of BUBT Chapter  (Jan 2023 to Present)</span>
+</div>
+</div>
+<div class="skills__data" style="display: flex; justify-content: center; align-items: center; height: 60px;">
+<div class="skills__names" style="text-align: center;">
+<span class="skills__name">Executive Member at BUBT EEE CLUB <br/> (Jan 2023 to Present)</span>
+</div>
+</div>
+<div class="skills__data" style="display: flex; justify-content: center; align-items: center; height: 60px;">
+<div class="skills__names" style="text-align: center;">
+<span class="skills__name">Former Campus Ambassador at EPaathshala BD <br/>(1 Jan to 31 Jan  2024)</span>
+</div>
+</div>
+<div class="skills__data" style="display: flex; justify-content: center; align-items: center; height: 60px;">
+<div class="skills__names" style="text-align: center;">
+<span class="skills__name">Member at BUBT Social Welfare Club <br/> (Nov 2024 to Present)</span>
+</div>
+</div>
+<div class="skills__data" style="display: flex; justify-content: center; align-items: center; height: 70px;">
+<div class="skills__names" style="text-align: center;">
+<span class="skills__name">Former Youth worker at Bangladesh Scouts <br/> (2014 to 2021)</span>
+</div>
+</div>
+</div>
+<div>
+<div class="skills__data" style="display: flex; justify-content: center; align-items: center; height: 110px;">
+<div class="skills__names" style="text-align: center;">
+<span class="skills__name">Me and my team successfully organized a workshop with 200+ enthusiastic students titled Monetize Your Apps and Ideas in bdapps.(13 Nov 2024)</span>
+</div>
+</div>
+<div class="skills__data" style="display: flex; justify-content: center; align-items: center; height: 70px;">
+<div class="skills__names" style="text-align: center;">
+<span class="skills__name">Volunteer at Bangladesh Artificial Intelligence Olympiad BDAIO (17 May 2025)</span>
+</div>
+</div>
+<div class="skills__data" style="display: flex; justify-content: center; align-items: center; height: 70px;">
+<div class="skills__names" style="text-align: center;">
+<span class="skills__name">Volunteer at Bangladesh Mathematical Olympiad 2025 <br/> (24 Jan 2025)</span>
+</div>
+</div>
+<div class="skills__data" style="display: flex; justify-content: center; align-items: center; height: 70px;">
+<div class="skills__names" style="text-align: center;">
+<span class="skills__name">Volunteer at Launching Event Youth Upskill Network (YUNet)  (24 Nov 2024)</span>
+</div>
+</div>
+<div class="skills__data" style="display: flex; justify-content: center; align-items: center; height: 60px;">
+<div class="skills__names" style="text-align: center;">
+<span class="skills__name">BUBT Long 3-day Programming Camp 2023 <br/> (30 May 2023 to 1 June 2023)</span>
+</div>
+</div>
+<div class="skills__data" style="display: flex; justify-content: center; align-items: center; height: 90px;">
+<div class="skills__names" style="text-align: center;">
+<span class="skills__name">Cython Codecraft Organize 3-day Data Structure &amp; Algorithm with C++ and Python BOOTCAMP 2024</span>
+</div>
+</div>
+<div class="skills__data" style="display: flex; justify-content: center; align-items: center; height: 70px;">
+<div class="skills__names" style="text-align: center;">
+<span class="skills__name">3 Days Biggest Online Live Seminar By Cyber Bangla (23rd, 24th, and 25th August 2024)</span>
+</div>
+</div>
+<div class="skills__data" style="display: flex; justify-content: center; align-items: center; height: 80px;">
+<div class="skills__names" style="text-align: center;">
+<span class="skills__name">Former Campus Ambassador at Farhanas Brainstation (Team unify 16)</span>
+</div>
+</div>
+<div class="skills__data" style="display: flex; justify-content: center; align-items: center; height: 60px;">
+<div class="skills__names" style="text-align: center;">
+<span class="skills__name">Former Affiliate Marketing patner at 10 Minute School Affiliates 2023</span>
+</div>
+</div>
+<div class="skills__data" style="display: flex; justify-content: center; align-items: center; height: 60px;">
+<div class="skills__names" style="text-align: center;">
+<span class="skills__name">Former Amazon Affiliate Marketer <br/> (Jan 2022 to June 2022)</span>
+</div>
+</div>
+<div class="skills__data" style="display: flex; justify-content: center; align-items: center; height: 70px;">
+<div class="skills__names" style="text-align: center;">
+<span class="skills__name">2 WEEK CYBERSECURITY CTF BOOTCAMP <br/> (9th to 24th Nov 2024) </span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Achievement/BASIS_STUDENT_FORUM_OF_BUBT_CHAPTER.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Achievement/3rd International Congress on Recent Trends in Computer Science ICRCS 2024.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Achievement/4rd International Congress on Recent Trends in Computer Science ICRCS 2024.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Achievement/EpaathsalaBD_as_a_Campus_Ambassador.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Achievement/Utsob_Farhanas_Brainstation_Campus_Ambassador_Team_Unify-16.png"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Achievement/6th_EExecutive_Member_EEE Club_Utsob.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Achievement/ProdigyInfoTech_Internship_offer_Letter.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Achievement/Utsob_CodeAlpha_Internship_offer_Letter.jpg"/>
+</a>
+<a class="work__img" href="https://drive.google.com/file/d/1e9hFSc_36FnMOdgxQpZixAcr3X6rBURu/view?usp=sharing">
+<img alt="" loading="lazy" src="images/Achievement/Offer Letter to study B.Tech. (Computer Science &amp; Engineering).jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo/?fbid=1019675583507725&amp;set=a.366068668868423">
+<img alt="" loading="lazy" src="images/Achievement/Software Development &amp; Idea Pitching Event.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Achievement/Cyber Skills Bootcamp Mastering Cybersecurity through CTF Challenges.png"/>
+</a>
+<a class="work__img" href="https://docs.google.com/document/d/1BWxAuNENOJvCyNvyR7UiYYrkFHYh_PfaqRZWlj9oaB4/edit?usp=sharing">
+<img alt="" loading="lazy" src="images/Achievement/Epathsalabd Contract Paper.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Achievement/Executive_Member_at_IEEE_BUBT_Student_Branch.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo/?fbid=1066061371980758&amp;set=pcb.1065955308658031">
+<img alt="" loading="lazy" src="images/Achievement/BIUPC.jpg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Achievement/BITPA Volunteer.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Achievement/NASA 16.jpg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Achievement/YUNet Discount Coupon.jpeg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Achievement/NASA 17.jpg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Achievement/Utsob bdapps Campus Ambassador 2025.jpg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Achievement/NASA 18.png"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Achievement/Utsob bdapps Campus Ambassador 2024.jpg"/>
+</a>
+</div>
+
+
+<br/>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--===== Video Gallery=====-->
+<section class="Video Gallery section" id="Video">
+<h2 class="section-title">Video Gallery</h2>
+<div class="work__container bd-grid">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="250" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/z2bNyHA7Oy8?si=-Q4I8GfAHj50p_00" title="YouTube video player" width="350"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="250" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/sh46nmz7aO0?si=Xo6G_6ypbXVYyamx" title="YouTube video player" width="350"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="250" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/VaQ8hCON_oA?si=I-QPCRpYtzmDrY3E" title="YouTube video player" width="350"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="250" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/h3scXRQraBM?si=2y0-1_KVtkIqq0o4" title="YouTube video player" width="350"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="250" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/YZ5tOe7y9x4?si=t0Tv3OPCh1v57UTk" title="YouTube video player" width="350"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="250" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/BzhfYw0_zKo?si=au7lS6gmXeupFXDg" title="YouTube video player" width="350"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="250" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/J5XERCzDYdA?si=4sUyCu2oQKWF9j0o" title="YouTube video player" width="350"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="250" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/DlGjE2c_EdI?si=Yu7W0A4EO6nZwvkq" title="YouTube video player" width="350"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="250" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/xSQBATg2enY?si=PoPm9UUr7ugOG-TD" title="YouTube video player" width="350"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="250" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/X71kqkGi1Sk?si=gikTE-ANRtOHRyUK" title="YouTube video player" width="350"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="250" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/PDupXPbx-Po?si=5xf98UWl-oTO3Zth" title="YouTube video player" width="350"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="250" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/nGT3a7ZrRSM?si=UDR9-tfBfJCBTML2" title="YouTube video player" width="350"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="250" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/S_iqEHE85nA?si=To_BAd-oFc14q-xy" title="YouTube video player" width="350"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="250" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/b0AsTk9BIr4?si=NPhqWc6LqTNQK_NP" title="YouTube video player" width="350"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="250" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/7C0hq71c1D0?si=jzKo-8fpYJXXuDt3" title="YouTube video player" width="350"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="250" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/46k3fScOM-U?si=92Jm9kBE5VC23Ef_" title="YouTube video player" width="350"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="250" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/BtbQoPi7j3E?si=9xH7ISmPJTCl7bSI" title="YouTube video player" width="350"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="250" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/3aP0uyq0hss?si=_LXrUfUNf48KBgti" title="YouTube video player" width="350"></iframe>
+</div>
+
+</section>
+<br/>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--===== Photo Gallery=====-->
+<section class="Photo Gallery section" id="Photo">
+<h2 class="section-title">Photo Gallery</h2>
+<h2 align="center">
+<p> BITPA Conference 2024 Krishibid Institution Bangladesh (KIB)</p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BITPA 1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BITPA 2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BITPA 3.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BITPA 4.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BITPA 5.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BITPA 6.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> 36 Hour Hackathon NASA Space Apps Challenge 2024 (AIUB) </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/NASA 1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/NASA 2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/NASA 3.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/NASA 4.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/NASA 5.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/NASA 6.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/NASA 7.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/NASA 8.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/NASA 9.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/NASA 10.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/NASA 11.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/NASA 12.png"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/NASA 13.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/NASA 14.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/NASA 15.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> Clemon Presents ActivePulse 10K Marathon Powered by GIGABYTE (Rabindra Sarobar) </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Active Pulse Bangladesh 1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Active Pulse Bangladesh 2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Active Pulse Bangladesh 3.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> bdapps Award Night 2024 (Lakeshore Hotel Gulshan)</p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps Award Night 2025 1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps Award Night 2025 2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps Award Night 2025 3.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps Award Night 2025 4.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps Award Night 2025 5.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps Award Night 2025 6.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps Award Night 2025 7.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps Award Night 2025 8.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps Award Night 2025 9.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps Award Night 2025 10.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps Award Night 2025 11.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps Award Night 2025 12.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps Award Night 2025 13.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps Award Night 2025 14.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps Award Night 2025 15.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> Youth Upskill Network (YUNet) Corporate Navigator Program Graduation Ceremony </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/YUNet 1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/YUNet 2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/YUNet 3.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/YUNet 4.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/YUNet 5.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/YUNet 6.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/YUNet 7.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/YUNet 8.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/YUNet 9.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/YUNet 10.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/YUNet 11.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/YUNet 12.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/YUNet 13.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/YUNet 14.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/YUNet 15.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> Exploring AI Research Innovation &amp; Career Pathways Seminar (BUBT) </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Exploring AI Research Innovation &amp; Career Pathways 1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Exploring AI Research Innovation &amp; Career Pathways 2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Let’s Code Your Career with Programming Hero.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> Mathematics Olympiad 2025 (Prothom Alo Office) </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Prothom Alo 1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Prothom Alo 2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Prothom Alo 3.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> Workshop on Monetizing Apps &amp; Ideass with bdapps 2024 (BUBT)</p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps 1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps 2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps 3.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps 4.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps 5.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps 6.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> Rise Above All 2024 Krishibid Institution Bangladesh (KIB) </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Rise Above All 1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Rise Above All 2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Rise Above All 3.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Rise Above All 4.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Rise Above All 5.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Rise Above All 6.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> Visited Grameenphone Head Office Bashundhara </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Grameenphone 1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Grameenphone 2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Grameenphone 3.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> BUBT Intra University Programming Contest 2024 </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BIUPC 1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BIUPC 2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BIUPC 3.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> Full Stack Development Integrating Front-End &amp; Back-End Technologies Seminar (BUBT) </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Anisul_Islam_1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Anisul_Islam_2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Anisul_Islam_3.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Anisul_Islam_4.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Anisul_Islam_5.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Anisul_Islam_6.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> bdapps Campus Ambassadors Night 2024 (Six Seasons Hotel Gulshan)</p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Utsob_2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps_Admin_Panel_&amp;_bdapps_all_Campus_Ambassador.jpg"/>
+<!-- <p><section align="center">bdapps Admin Panel & bdapps 2024 all Campus Ambassador</section></p> -->
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps_Campus_Ambassadors_Night_2024_Photo_Corner.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> IT Job Fair 2024 Krishibid Institution Bangladesh (KIB) </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdjobs_IT_Job_Fair_1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdjobs_IT_Job_Fair_2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps_Campus_Ambassador.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdjobs_IT_Job_Fair_3.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps_Regional_Meetup_2024_2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Youth_Tech_Summit_3.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> Youth Tech Summit 2024 Krishibid Institution Bangladesh (KIB)</p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Youth_Tech_Summit_1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Youth_Tech_Summit_2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Youth_Tech_Summit_4.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/bdapps_Regional_Meetup_2024_1.jpg"/>
+<h5 align="center">
+<p>Salah Uddin (Noman) (General Manager &amp; Head of Digital Services at Robi Axiata Ltd)</p>
+</h5>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Arms_Exhibition_2024.jpg"/>
+<h5 align="center">
+<p>Md Naeem (Leading Aircraftman Bangladesh Air Force)</p>
+</h5>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BASIS_Soft_Expo_2023_10.jpg"/>
+<h5 align="center">
+<p>Ariful Hasan Opu (CEO at E-Soft &amp; President Space Innovation Camp)</p>
+</h5>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Atiqur Rahaman.jpg"/>
+<h5 align="center">
+<p>Atiqur Rahaman(Chief Executive Officer (CEO) &amp; Founder at Design Monks)</p>
+</h5>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Rafayat Rakib.jpg"/>
+<h5 align="center">
+<p>Rafayat Rakib(Content Creator)</p>
+</h5>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Mojahidul Islam.jpg"/>
+<h5 align="center">
+<p>Mojahidul Islam (Co-founder &amp; Chairman at HavioSoft)</p>
+</h5>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Ali Hossain.jpg"/>
+<h5 align="center">
+<p>Ali Hossain (Chief Executive Officer procoderAcademy)</p>
+</h5>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Ghulam Sumdany Don.jpg"/>
+<h5 align="center">
+<p>Ghulam Sumdany Don(Chief Inspirational Officer at Don Sumdany Facilitation)</p>
+</h5>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BASIS_Soft_Expo_2023_14.jpg"/>
+<h5 align="center">
+<p>Toufiq Elahi Plabon (Assistant Manager at BASIS)</p>
+</h5>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/CTF challenges.jpg"/>
+<h5 align="center">
+<p>CTF Challenges Competition 2024</p>
+</h5>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Python Bangladesh Meetup.jpg"/>
+<h5 align="center">
+<p>Python Bangladesh Meetup 2024</p>
+</h5>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BASIS_Soft_Expo_2023_14.jpg"/>
+<h5 align="center">
+<p>Toufiq Elahi Plabon (Assistant Manager at BASIS)</p>
+</h5>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p>Higher Studies Scholarship &amp; Research Prospectss Seminar 2023</p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Basis_Soft_Expo_2023_Campus_activation_seminer_and_Orientation_Ceremony.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Higher_Studies_scholarship_&amp;_Research_Prospectss.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Higher_Studies_scholarship_&amp;_Research_Prospects.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p>BUBT CSE Department Intake 51 Section 06</p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Class_Mate_1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Class_Mate_2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Class_Mate_3.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p>  ICPC Asia Dhaka Regional Contest 2023 Hosted by BUBT</p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BUBT_1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BUBT_2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BUBT_3.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BUBT_4.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BUBT_8.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BUBT_9.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BUBT_10.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BUBT_11.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BUBT_12.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p>  Successful Industrial Visited Creative IT Institute Dhanmondi</p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Creative_IT_Institute_1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Creative_IT_Institute_2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Creative_IT_Institute_3.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p>  IEEE BUBT Student Branch Farewell and Fresher's Orientation Ceremony 2024
+        </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/IEEE_BUBT_Student_1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/IEEE_BUBT_Student_2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/IEEE_BUBT_Student_3.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p>  SQA Summit 2023 (BUBT International Conference Hall) </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/SQA_SUMMIT_2023_1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/SQA_SUMMIT_2023_2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/SQA_SUMMIT_2023_3.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p>  Future of Career Artificial Intelligence Robotic Machine Learning Seminar BUBT</p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/The_Future_of_Career_Artificial intelligence_Robotic_machine_learning_and_AR_VR_1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/The_Future_of_Career_Artificial intelligence_Robotic_machine_learning_and_AR_VR_2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/The_Future_of_Career_Artificial intelligence_Robotic_machine_learning_and_AR_VR_3.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p>  The largest Regional Technology Expo BASIS Soft Expo 2023 (BCFEC) </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BASIS_Soft_Expo_2023_1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BASIS_Soft_Expo_2023_2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BASIS_Soft_Expo_2023_3.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BASIS_Soft_Expo_2023_4.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BASIS_Soft_Expo_2023_5.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BASIS_Soft_Expo_2023_6.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BASIS_Soft_Expo_2023_7.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BASIS_Soft_Expo_2023_8.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BASIS_Soft_Expo_2023_9.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BASIS_Soft_Expo_2023_11.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BASIS_Soft_Expo_2023_12.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/BASIS_Soft_Expo_2023_13.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p>  University Fresher Orientation Ceremony 2023 </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Welcome_BUBT_1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Welcome_BUBT_2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/Welcome_BUBT_3.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p>  Cantonment College Jeshore </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/CCJ_1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/CCJ_2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/CCJ_3.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/CCJ_4.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/CCJ_5.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Photo Gallery/CCJ_6.jpg"/>
+</a>
+</div>
+
+</section>
+<br/>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--===== I have attended lot of Online & Offline Seminar, Workshop, Fair, Webinar and Expo  =====-->
+<section class="Seminar section" id="Seminar">
+<h2 class="section-title">I have attended lot of Online &amp; Offline Seminar Workshop Fair Webinar and Expo</h2>
+<h2 align="center">
+<p> Campus Ambassador Meeting Team Unify 16's of Farhanas Brainstation </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Farhanas Brainstation 1.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Farhanas Brainstation 2.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Farhanas Brainstation 3.png"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p>  BongoDev Organize Cython Codecraft Bootcamp </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/BongoDev 1.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/BongoDev 2.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/BongoDev 3.png"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> Farhanas Brainstation Organize STEM Empowerment Bootcamp </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/STEM Empowerment Bootcamp 1.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/STEM Empowerment Bootcamp 3.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/STEM Empowerment Bootcamp 3.png"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> Building a Growth Mindset Virtual Workshop Organized by Youth Upskill Network </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Screenshort 1.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Screenshort 2.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Screenshort 3.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> Programming Hero Online Workshop </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Programming Hero 1.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Programming Hero 2.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Programming Hero 3.png"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> Ethical Hacking Bootcamp Organized by Team Matrix </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Ethical Hacking 1.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Ethical Hacking 2.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Ethical Hacking 3.png"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> UI &amp; UX Design Crash Course Organized by Ostad </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img" href="https://www.behance.net/gallery/187539913/UX-Case-Study-on-Musician-Booking-App">
+<img alt="" loading="lazy" src="images/Screenshot/UIUX 1.png"/>
+</a>
+<a class="work__img" href="https://www.behance.net/gallery/187539913/UX-Case-Study-on-Musician-Booking-App">
+<img alt="" loading="lazy" src="images/Screenshot/UIUX 2.png"/>
+</a>
+<a class="work__img" href="https://www.behance.net/gallery/187539913/UX-Case-Study-on-Musician-Booking-App">
+<img alt="" loading="lazy" src="images/Screenshot/UIUX 3.png"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> Product Managment Crash Course Organized by Ostad </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Product Managment 1.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Product Managment 2.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Product Managment 3.png"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> Erasmus Mundus Scholarship informative Seminar </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Screenshort 4.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Screenshort 5.jpg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Screenshort 6.png"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> Workshop on Linkedin Networking Organize by Daffodil Entrepreneurs Club </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Linkdin 1.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Linkdin 2.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Linkdin 3.png"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> Seminar Concept of Net Energy Metering a Guideline of SREDA </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/SREDA 1.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/SREDA 2.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/SREDA 3.png"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> Software Testing &amp; Quality Assurance Webinar </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/SQA 1.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/SQA 2.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/SQA 3.png"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> bdapps Knowledge Sharing Workshop </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Screenshort 7.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Screenshort 8.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Screenshort 9.png"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> Write a Research Proposal organized by Empirical Research &amp; Training International </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/HOW TO WRITE A RESEARCH PROPOSAL 2.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/HOW TO WRITE A RESEARCH PROPOSAL 3.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/HOW TO WRITE A RESEARCH PROPOSAL 4.png"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> Navigator ERP System for Seamless IT Administration Webinar </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img" href="https://www.facebook.com/ieeecsbdcgsm/posts/pfbid02Jg8bZTCkcWN74tqkbwYRdsAGHr7YwuJZtJEz2Sy1FQawToTHg7QgxTekT1BZD3PTl">
+<img alt="" loading="lazy" src="images/Screenshot/Navigating ERP Systems for Seamless IT Administration &amp; Uncovering Promising Career Opportunities 1.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/ieeecsbdcgsm/posts/pfbid02Jg8bZTCkcWN74tqkbwYRdsAGHr7YwuJZtJEz2Sy1FQawToTHg7QgxTekT1BZD3PTl">
+<img alt="" loading="lazy" src="images/Screenshot/Navigating ERP Systems for Seamless IT Administration &amp; Uncovering Promising Career Opportunities 2.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/ieeecsbdcgsm/posts/pfbid02Jg8bZTCkcWN74tqkbwYRdsAGHr7YwuJZtJEz2Sy1FQawToTHg7QgxTekT1BZD3PTl">
+<img alt="" loading="lazy" src="images/Screenshot/Navigating ERP Systems for Seamless IT Administration &amp; Uncovering Promising Career Opportunities 3.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> Data Amalytics Live Project Webinar </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Data Amalytics Live Project 1.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Data Amalytics Live Project 2.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Data Amalytics Live Project 3.png"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> 3 Days Biggest Online Live Seminar Organized by Cyber Bangla </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img" href="https://www.youtube.com/watch?v=xvl6bVbjn5A">
+<img alt="" loading="lazy" src="images/Screenshot/Cyber Security career path guidelines,Bug Bounty &amp; Higher Study Abroad 2.png"/>
+</a>
+<a class="work__img" href="https://www.youtube.com/watch?v=xvl6bVbjn5A">
+<img alt="" loading="lazy" src="images/Screenshot/Cyber Security career path guidelines,Bug Bounty &amp; Higher Study Abroad 3.png"/>
+</a>
+<a class="work__img" href="https://www.youtube.com/watch?v=xvl6bVbjn5A">
+<img alt="" loading="lazy" src="images/Screenshot/Cyber Security career path guidelines,Bug Bounty &amp; Higher Study Abroad 4.png"/>
+</a>
+<a class="work__img" href="https://www.youtube.com/watch?v=xvl6bVbjn5A">
+<img alt="" loading="lazy" src="images/Screenshot/Cyber Security career path guidelines,Bug Bounty &amp; Higher Study Abroad 5.png"/>
+</a>
+<a class="work__img" href="https://www.youtube.com/watch?v=xvl6bVbjn5A">
+<img alt="" loading="lazy" src="images/Screenshot/Cyber Security career path guidelines,Bug Bounty &amp; Higher Study Abroad 6.png"/>
+</a>
+<a class="work__img" href="https://www.youtube.com/watch?v=Wi3Ryn2vYiU">
+<img alt="" loading="lazy" src="images/Screenshot/Cyber Security career path guidelines,Bug Bounty &amp; Higher Study Abroad 7.png"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> Higher Studies In The United States Webinar Organized by EMK Center  </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Higher Studies In The United States 1.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Higher Studies In The United States 2.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/Higher Studies In The United States 3.png"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> How to Publish Research Paper in International Journal Webinar Organized by AIUB </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/How to Publish Research Paper in International Journal 1.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/How to Publish Research Paper in International Journal 2.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Screenshot/How to Publish Research Paper in International Journal 3.png"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/BUBTOfficial/posts/pfbid02zL63HhVHSuqzmcEyeR3MndQvJtvh8ouMGDm1bpLdcyQXgkEjPHUbn17Bd86VHPBfl">
+<img alt="" loading="lazy" src="images/Seminar/Software_devlopment_process.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/ieeebubtpes/posts/pfbid037e1v6AZ2Gz9phx2vL9daRG3m4tHyueBrSBC3Yh8AL9tdrYF73eFumkBjqwkEMqkJl">
+<img alt="" loading="lazy" src="images/Seminar/Higher_Study_Scholarship_&amp;_Research_Prospects.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/watch/live/?ref=watch_permalink&amp;v=1445706409536116">
+<img alt="" loading="lazy" src="images/Seminar/Higher_education_and_settlement_in_australia.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/ieeebubt/posts/pfbid0YMeLMKaEwwXZi6t6rhJ6JU3QmDHuJMN1PVQRBvzEARaJRbxjW29DojhMPqMG7tvrl">
+<img alt="" loading="lazy" src="images/Seminar/Quality_research_&amp;_higher_education_opportunity in japan.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/ieeebubt/posts/pfbid03Jy9mjPk5apfPycsiuddazmjHsyFED8LQsF3Rr7oQN2AqHydztggx5WG1V1QPVSTl">
+<img alt="" loading="lazy" src="images/Seminar/The_Future_of_Career_Artificial intelligence_Robotic_machine_learning_and_AR_VR.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo?fbid=809883957501353&amp;set=a.444575310698888">
+<img alt="" loading="lazy" src="images/Seminar/Erasmus_Mundus.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/events/307166695407059/?ref=newsfeed">
+<img alt="" loading="lazy" src="images/Seminar/Cyber Ethical Hacking and Software Security Management A Holistic Approach.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo.php?fbid=675114161475936&amp;set=pb.100069320740705.-2207520000&amp;type=3">
+<img alt="" loading="lazy" src="images/Seminar/Cython Codecraft Unleash the Potential of Data Structure &amp; Algorithm with C++ and Python.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/events/1028953548231580/?ref_source=newsfeed&amp;ref_mechanism=feed_attachment&amp;action_context=%257B%2522action_history%2522%253A%2522null%2522%257D&amp;paipv=0&amp;eav=AfbPTwb82uWITYUb0qk90YyalsWM_q72KYbjdGhGU9UxLenR0noqtcZI3DMgHiEayOg&amp;_rdr">
+<img alt="" loading="lazy" src="images/Seminar/Navigating ERP Systems for Seamless IT Administration &amp; Uncovering Promising Career Opportunities.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/watch/live/?ref=watch_permalink&amp;v=964208458364824">
+<img alt="" loading="lazy" src="images/Seminar/Competitive_programming_roadmap_session.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/watch/live/?ref=watch_permalink&amp;v=816048853905755">
+<img alt="" loading="lazy" src="images/Seminar/CV_writing_and_interviewing_etiquette.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo.php?fbid=794133809398426&amp;set=pb.100064054412907.-2207520000&amp;type=3">
+<img alt="" loading="lazy" src="images/Seminar/The_concept_of_net_energy_metering_a_guideline_of_SREDA.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/watch/live/?ref=watch_permalink&amp;v=461571186394943">
+<img alt="" loading="lazy" src="images/Seminar/Exploring_the_frontiers_artificial_intellgence_and_software_engineering.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/BSF.BUBT/posts/pfbid0nWTha4J6f5D2ra4VzGnfNMmhb5vqERGVUXcXQQvD1HfC2ZKZZdaNHUaupuBc7zPl">
+<img alt="" loading="lazy" src="images/Seminar/SQA_skillset_&amp;_ignite_future_ideas.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/BUBTOfficial/posts/pfbid03G29sVevrL57cr6pGNNAMExrmHNjGTYMy3JfsUiNNRtrawwaYzz191vvyD4mG5Rol">
+<img alt="" loading="lazy" src="images/Seminar/bdjobs_1.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/ieeecsbdcspark/posts/pfbid0mq3SKQhhRwTWEQAH4cth95HjkJ5C41aDLWa6EAyLcwFGD4hJGwQ7fABJNko7r8q6l">
+<img alt="" loading="lazy" src="images/Seminar/IEEE_a_gateway_for_worldwide_sucessful_engineering_career_in_4IR.jpg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Seminar/icpc_2.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/ieeecsbdcspark/posts/pfbid02KCxGjvHGuZbDo4V4DdE5ohtgbbQff1ECJSV8vMEPGRoSaDXsTGf152y49tfy76Hdl">
+<img alt="" loading="lazy" src="images/Seminar/Microsoft_Learn_Student_Ambassador_Program.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> 9th International Fire Safety &amp; Security Expo 2024 </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img" href="https://www.facebook.com/mengineer2022/posts/pfbid037aSM916vaX2bpsauFUUE9mWa5RhdgKdE2ZQojyyAuLq9jhAuY5HZGNhUGQeH76GLl">
+<img alt="" loading="lazy" src="images/Seminar/9th_International_Fire_Safety_and_Security_Expo_2023.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/mengineer2022/posts/pfbid037aSM916vaX2bpsauFUUE9mWa5RhdgKdE2ZQojyyAuLq9jhAuY5HZGNhUGQeH76GLl">
+<img alt="" loading="lazy" src="images/Seminar/Smart_Safty_&amp;_Security_Solution_in_Bangladesh.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/mengineer2022/posts/pfbid037aSM916vaX2bpsauFUUE9mWa5RhdgKdE2ZQojyyAuLq9jhAuY5HZGNhUGQeH76GLl">
+<img alt="" loading="lazy" src="images/Seminar/Upcomming_Challenges_of_Safty_&amp;_Disaster_Management_in_Bangladesh.jpg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Seminar/Cyber Security career path guidelines,Bug Bounty &amp; Higher Study Abroad 1.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo/?fbid=2302324446773889&amp;set=gm.1595261544624879&amp;idorvanity=899037480913959">
+<img alt="" loading="lazy" src="images/Seminar/Cyber Security 1.jpg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Seminar/negotiation-for-sales-people.jpg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Seminar/Robotics Camp 2022.jpg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Seminar/Market Sizing Masterclass 2024.jpg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Seminar/NASA Space Apps Challenge.jpg"/>
+</a>
+<a class="work__img" href="https://www.tbsnews.net/economy/corporates/stem-empowerment-bootcamp-aims-transform-future-leaders-748658">
+<img alt="" loading="lazy" src="images/Seminar/STEM Empowerment Bootcamp.jpeg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/ESABBUBTUnitFace/posts/pfbid0KE2EorV78P1SCByta1K9eLUJRzYDHafS6tX3DJwJyryx9vpfjVk5AxKhXCb5opAWl">
+<img alt="" loading="lazy" src="images/Seminar/ESAB BUBT Unit Face Career Talk 3.0.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo/?fbid=616148237257761&amp;set=a.295001222705799">
+<img alt="" loading="lazy" src="images/Seminar/Connecting, Contributing, and Leading Exploring the Rewards of Volunteering in IEEE Congresses.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo/?fbid=694624802708317&amp;set=pb.100064824095125.-2207520000">
+<img alt="" loading="lazy" src="images/Seminar/Higher_Quality_Publication_A_Pathway_for_Higher_Education_with_Funding.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/BITCofficial/posts/pfbid0ovhkCR7jUUhWPyhmSceuMzQE4eEYGeeUvsSRFneXGYGkAHd8QGFcQQQPPP15e7qSl">
+<img alt="" loading="lazy" src="images/Seminar/SQA_summit_2023.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo?fbid=143878838614386&amp;set=a.118533514482252">
+<img alt="" loading="lazy" src="images/Seminar/International_Congress_on_Recent_Trends_in_Computer_Science_2024.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/BSF.BUBT/posts/pfbid02cuiK4uz2UXhEbrBb6f1NjZRLAeM6G52HJtbhpWbaKZph4QKUMJgR5GQaicbdh1oal">
+<img alt="" loading="lazy" src="images/Seminar/Welcome_to_the_smartverse.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/BSF.BUBT/posts/pfbid0aJZtAsyCtBqsVzEoEVCoCAuxmzLzFgow2oETZNxrUKJbbcPRsdKFPWwS7D6CHAv9l">
+<img alt="" loading="lazy" src="images/Seminar/Welcome_to_the_smartverse_campus_activation_seminar.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/bubtcse/posts/pfbid02DW84rnWjkUhxBT5diHcvav7xfTDhpbX4KWDDAVy5ZUYS2CqAWvvC2FaH5DfhDBYEl">
+<img alt="" loading="lazy" src="images/Seminar/gromming_session.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/watch/live/?ref=watch_permalink&amp;v=9996821147057181">
+<img alt="" loading="lazy" src="images/Seminar/Content_marketing_for_startup.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/watch/live/?ref=watch_permalink&amp;v=3660221540967781">
+<img alt="" loading="lazy" src="images/Seminar/Startup_business_and_banking_financing.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/watch/live/?ref=watch_permalink&amp;v=848671236484637">
+<img alt="" loading="lazy" src="images/Seminar/How_to_start_export_business_in_SME_scale.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/watch/live/?ref=watch_permalink&amp;v=1051928592548936">
+<img alt="" loading="lazy" src="images/Seminar/The_ABC's_of_international_business_documentation.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/watch/live/?ref=watch_permalink&amp;v=687646613259863">
+<img alt="" loading="lazy" src="images/Seminar/Founding_for_startup.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo/?fbid=671326188370387&amp;set=a.460168836152791">
+<img alt="" loading="lazy" src="images/Seminar/Linkdin_networking.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> bdapps Knowledge Sharing Workshop </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Seminar/bdapps_1.jpg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Seminar/bdapps_2.jpeg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Seminar/bdapps_3.jpeg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Seminar/Integrating Front-End &amp; Back-End Technologies.jpg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Seminar/Data &amp; Business Analytics Workshop.jpg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Seminar/Roadmap to flutter.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Seminar/Data Amalytics Live Project.jpeg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/BSF.BUBT/posts/pfbid02oLrnExAFkprTSjYiLhDTEvsKx5b8R3N9cCU8zXxVQXBDCwrBerNJofY2CcaywMS7l">
+<img alt="" loading="lazy" src="images/Seminar/Guidelines &amp; QA Session.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo/?fbid=3578436829072395&amp;set=g.145952779575793">
+<img alt="" loading="lazy" src="images/Seminar/Guide to Applying for Master's and Fully Funded PhD Programs Abroad.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo.php?fbid=893206812824458&amp;set=pb.100064054412907.-2207520000&amp;type=3">
+<img alt="" loading="lazy" src="images/Seminar/Navigating_cyber_security_and_tracking_cyberbulling.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/ieeebubt/posts/pfbid02VTgJ8PthgfGcGspmb2HCdZPahHEJEDkpx2vC59qmrMXMzK23iy3Z8RPcc1aH2UcJl">
+<img alt="" loading="lazy" src="images/Seminar/Farewell_&amp;_Freshers_orientation_ceremony.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/bubtcse/posts/pfbid0srJAXYLxMg9Z3EQCf7Lq8f31oKNG23S148XZPEZQHKKH5mYkhbLW8F1E749ugSSel">
+<img alt="" loading="lazy" src="images/Seminar/Quality_publication_a_pathway_for_higher_education_with_funding.jpg"/>
+</a>
+</div>
+<br/>
+<h2 align="center">
+<p> Programming Camp &amp; Contest 2022-2023-2024 </p>
+</h2>
+<div class="work__container bd-grid">
+<a class="work__img" href="https://www.facebook.com/BITCofficial/posts/pfbid0QLX4RPoCs17EQjcby8FTUcLwFshUSs1tHUM7otWqNQwrAvuQEWTJM7Ci1XRD1r1Fl">
+<img alt="" loading="lazy" src="images/Seminar/Programming_contest_2024.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/watch/?v=24136102355989066">
+<img alt="" loading="lazy" src="images/Seminar/Programming_camp_2023.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/BITCofficial/posts/pfbid0a76nybisQEvqaRoWy3LstFjth7q1mEnzpscxBEv1WjY3NtSGtqv2mUobJVkWhRCWl">
+<img alt="" loading="lazy" src="images/Seminar/Programming_contest_2022.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo.php?fbid=670387141798750&amp;set=pb.100064824095125.-2207520000&amp;type=3">
+<img alt="" loading="lazy" src="images/Seminar/Study_Abroad_and_Career_Path_Expo_2023.jpg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Seminar/HOW TO WRITE A RESEARCH PROPOSAL 1.jpg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Seminar/Career Landscape of Soft Testing &amp; Quality Assurance.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo?fbid=464907703188107&amp;set=a.186555837689963">
+<img alt="" loading="lazy" src="images/Seminar/AI Career.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo/?fbid=3817327538508867&amp;set=gm.3113190972157380&amp;idorvanity=1178005669009263">
+<img alt="" loading="lazy" src="images/Seminar/DevOps.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo/?fbid=3816415565266731&amp;set=gm.1723912924815407&amp;idorvanity=665793297294047">
+<img alt="" loading="lazy" src="images/Seminar/AJAX.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/BASISStudentsForum/videos/391969729876338">
+<img alt="" loading="lazy" src="images/Seminar/Machine Learning &amp; Intelligent Software Systems.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo.php?fbid=832738371987596&amp;set=pb.100057543215250.-2207520000&amp;type=3">
+<img alt="" loading="lazy" src="images/Seminar/Effective interview skill &amp; How to rock your linkdin profile.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo/?fbid=539481188432867&amp;set=a.289597686754553">
+<img alt="" loading="lazy" src="images/Seminar/RTK.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/mybdjobs/posts/pfbid0yMQgWyKWtqsJFfQpxpDjreczFPFccVDv96NuoYe3S5hpF1w5isBSyBbvXNC8kZ7Cl">
+<img alt="" loading="lazy" src="images/Seminar/IT_Job_Fair_bdjobs_2024.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/BUBTOfficial/posts/pfbid029xooBmcSRCa32okwCydNtU3AbBudWAZZxPP9RPAkGWbqUrEpyXd1YHqjGdTWmVUBl">
+<img alt="" loading="lazy" src="images/Seminar/BUBT_Job_fair_2024.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/BUBTOfficial/posts/pfbid0vURgmrh1aRvQ5fK3nfhoUyfe1ZtfwFsoa6qVnvaaN638FBH1tGDvxkZrkkxeabd8l">
+<img alt="" loading="lazy" src="images/Seminar/BUBT_Job_fair_2023.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/watch/live/?ref=watch_permalink&amp;v=6951823181495714">
+<img alt="" loading="lazy" src="images/Seminar/Preserve_Planet_earth_1.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/watch/live/?ref=watch_permalink&amp;v=6951823181495714">
+<img alt="" loading="lazy" src="images/Seminar/Preserve_Planet_earth_2.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/watch/live/?ref=watch_permalink&amp;v=6951823181495714">
+<img alt="" loading="lazy" src="images/Seminar/Preserve_Planet_earth_3.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/watch/live/?ref=watch_permalink&amp;v=1283968582563894">
+<img alt="" loading="lazy" src="images/Seminar/Cybersecurity_spectrum_in_academia_research_practics_and_competition.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/hashtag/youthtechsummit">
+<img alt="" loading="lazy" src="images/Seminar/Youth_tech_summit.jpg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Seminar/icpc_1.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/BITCofficial/videos/9512662128760883">
+<img alt="" loading="lazy" src="images/Seminar/Pathway to Excellence.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo?fbid=1005538444921439&amp;set=a.366068668868423">
+<img alt="" loading="lazy" src="images/Seminar/Workshop on Monetizing Apps &amp; Ideas with bdapps.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo?fbid=1975702086276790&amp;set=gm.916738366751782&amp;idorvanity=631928131899475">
+<img alt="" loading="lazy" src="images/Seminar/Self Preparation Guideline for Higher Study in the USA.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo/?fbid=880150784297834&amp;set=a.413926657586918">
+<img alt="" loading="lazy" src="images/Seminar/Don Sumdany Facilitation.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/groups/pythonbd/permalink/8101735503261129">
+<img alt="" loading="lazy" src="images/Seminar/Python Bangladesh Meetup.jpg"/>
+</a>
+<a class="work__img" href="https://www.smpcybersecurityexpo.com/">
+<img alt="" loading="lazy" src="images/Seminar/Cyber Security EXPO.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/events/503892442638832/?ref=newsfeed">
+<img alt="" loading="lazy" src="images/Seminar/Creative it Institute Full Stack Development with MERN Certificate.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/groups/BITPA">
+<img alt="" loading="lazy" src="images/Seminar/BITPA.jpg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Seminar/bdapps Award Night 2025.jpeg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo/?fbid=985451913625603&amp;set=a.562707152566750">
+<img alt="" loading="lazy" src="images/Seminar/Mastering Cybersecurity through CTF Challenges 1.jpg"/>
+</a>
+<br/>
+<a class="work__img" href="https://www.facebook.com/photo/?fbid=886268576954290&amp;set=a.596225579291926">
+<img alt="" loading="lazy" src="images/Seminar/Mastering Cybersecurity through CTF Challenges 2.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo.php?fbid=122128316108726983&amp;set=pb.61571809516972.-2207520000&amp;type=3">
+<img alt="" loading="lazy" src="images/Seminar/AI Olympiad.jpg"/>
+</a>
+<div>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Seminar/Getting Started With PowerBI.png"/>
+</a>
+</div>
+<a class="work__img" href="https://www.facebook.com/photo/?fbid=122122385816513975&amp;set=a.122098208516513975">
+<img alt="" loading="lazy" src="images/Seminar/Exploring AI Research Innovation &amp; Career Pathways.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo?fbid=122133487172459019&amp;set=a.122106430832459019">
+<img alt="" loading="lazy" src="images/Seminar/Building a Growth Mindset.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/photo.php?fbid=1060515299202032&amp;set=pb.100057307157292.-2207520000&amp;type=3">
+<img alt="" loading="lazy" src="images/Seminar/BIUPC.jpg"/>
+</a>
+<a class="work__img" href="https://www.facebook.com/BITCofficial/posts/pfbid0UDLQKuekPNHZ6H8ZpwV6uNh1q9FuHN85kfLGxHinHgTk2yiPXoSw2Pqd5b6hYPEbl">
+<img alt="" loading="lazy" src="images/Seminar/Let's Code Your Career Through programming.jpg"/>
+</a>
+</div>
+
+</section>
+<br/>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--===== Project=====-->
+<section class="Project section" id="Project">
+<h2 class="section-title">Project</h2>
+<div class="work__container bd-grid">
+<a class="work__img" href="https://docs.google.com/presentation/d/1JSxspRp9nwYc0ePt0Ym3ORcr9mQsf3jxvDyoqAC0GMA/edit?usp=sharing">
+<img alt="" loading="lazy" src="images/Project/EEE Project Presentation Slide.jpg"/>
+</a>
+<a class="work__img" href="https://docs.google.com/presentation/d/1PMZu1SYpfM07e-puQd08wj--B3RygclAq5hFPooVY_s/edit?usp=sharing">
+<img alt="" loading="lazy" src="images/Project/Hangmane Game Adventure.jpg"/>
+</a>
+<a class="work__img" href="https://docs.google.com/presentation/d/1dz5jP-wv2s8-tvvf0r3lrA-7-OWsKc0TtQ5P6ycUOVw/edit?usp=sharing">
+<img alt="" loading="lazy" src="images/Project/Jack Ma Inspirational Speech.jpg"/>
+</a>
+<a class="work__img" href="https://docs.google.com/presentation/d/1P4dyAFHnJGOwOgLEcPAB45Ltp47TmAiCye0bwIzLkQA/edit?usp=sharing">
+<img alt="" loading="lazy" src="images/Project/BUBT Robotics Club.jpg"/>
+</a>
+<a class="work__img" href="https://docs.google.com/presentation/d/1i6lXkNVPCHLLQf7oM9n3kjcTlfHnlsWGSJ753BqILzM/edit?usp=sharing">
+<img alt="" loading="lazy" src="images/Project/Machine Learning.jpg"/>
+</a>
+<a class="work__img" href="https://docs.google.com/presentation/d/1M1n5X5lCzbklx_nGm0iKOd0m3Sf8msho/edit?usp=sharing&amp;ouid=101679100217030339388&amp;rtpof=true&amp;sd=true">
+<img alt="" loading="lazy" src="images/Project/English Presentration.jpg"/>
+</a>
+<a class="work__img" href="https://docs.google.com/presentation/d/1Xt96vcn4MfnLIiGAReCRq7M5KdOyUlnrrc-Rg9rL9HA/edit?usp=sharing">
+<img alt="" loading="lazy" src="images/Project/Smart Traffic System.jpg"/>
+</a>
+<a class="work__img" href="https://docs.google.com/presentation/d/1vXU2sW0iW7JegdKAc5QVTRD3es-JSljAVqhLd9SRIOg/edit?usp=sharing">
+<img alt="" loading="lazy" src="images/Project/Automated-Business-Solution-With-QR-Integration.jpg"/>
+</a>
+<a class="work__img" href="https://github.com/utsob101/NASA-Space-Apps-Challenge-2024-Team-Avengers">
+<img alt="" loading="lazy" src="images/Project/Climate Explorer.jpg"/>
+</a>
+<a class="work__img" href="https://www.youtube.com/watch?v=nytI_7KCXgc">
+<img alt="" loading="lazy" src="images/Project/EEE Project.png"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Project/BEC_ROBO_MANIA_2022_2.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Project/BEC_ROBO_MANIA_2022_3.png"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Project/Project 1.jpg"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Project/Project 2.png"/>
+</a>
+<a class="work__img">
+<img alt="" loading="lazy" src="images/Project/Project 3.jpg"/>
+</a>
+<a class="work__img" href="https://docs.google.com/spreadsheets/d/1pkGrCfVlSbopB5tjIg9DCv8AHu4VzLe91Kmg0y7OrsI/edit?usp=sharing">
+<img alt="" loading="lazy" src="images/Project/EPaathshalaBD SOP Writing For Higher Studies Webinar Target Facebook Group 2023.png"/>
+</a>
+<a class="work__img" href="https://docs.google.com/spreadsheets/d/1gbpSJv8nDOm-jppiqvjWfI6H2VSNBZKZuzKIBuXcE7I/edit?usp=sharing">
+<img alt="" loading="lazy" src="images/Project/IG Influencer Find about Skin Issues (eczema, psoriasis, dermatitis etc.) 2023.png"/>
+</a>
+<a class="work__img" href="https://docs.google.com/spreadsheets/d/1rjnzocjEXREMLVLwZpbSLbbjCC-V127-rlm8LsccpEs/edit?usp=sharing">
+<img alt="" loading="lazy" src="images/Project/BUBT IUPC Sponsor List 2024.png"/>
+</a>
+<a class="work__img" href="https://github.com/utsob101/SDP-1-Hangman-Game">
+<img alt="" loading="lazy" src="images/Project/Hangman.jpg"/>
+</a>
+<a class="work__img" href="https://docs.google.com/document/d/1T0ptmUHCyUCFP8Bn_qJGeqbGyFVHcBnd/edit?usp=sharing&amp;ouid=103857983873282145573&amp;rtpof=true&amp;sd=true">
+<img alt="" loading="lazy" src="images/Project/Project Report.jpg"/>
+</a>
+<a class="work__img" href="https://docs.google.com/document/d/1DpRoQaRQfi07pI9KOub6rcawz9p2vRbHaRq3iNzu1eI/edit?usp=sharing">
+<img alt="" loading="lazy" src="images/Project/Automated Business solution with QR code  integration.jpg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Project/10 Minute School Affiliate Program.png"/>
+</a>
+<a class="work__img" href="http://178.128.49.191:8000/scoreboard">
+<img alt="" loading="lazy" src="images/Project/CTF 1.png"/>
+</a>
+<a class="work__img" href="http://178.128.49.191:8000/teams/8">
+<img alt="" loading="lazy" src="images/Project/CTF 2.png"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Project/CTF 3.jpg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Project/CTF 4.jpg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Project/Leaderboard.png"/>
+</a>
+<a class="work__img" href="https://github.com/utsob101/AI-Fashion-Advisor">
+<img alt="" loading="lazy" src="images/Project/AI Fashion Advisor.jpg"/>
+</a>
+<a class="work__img" href="https://docs.google.com/document/d/1hNjqQqimBcviWqQLdgQeQ9nG8lALs00wG6-epA-RgVI/edit?usp=sharing">
+<img alt="" loading="lazy" src="images/Project/SDP_2 Report.jpg"/>
+</a>
+<a class="work__img" href="https://github.com/utsob101/SDP-2-Automated-Business-Solution-with-QR-code-Integration">
+<img alt="" loading="lazy" src="images/Project/Automated Business Solution With QR Code.png"/>
+</a>
+<br/>
+<h2 align="center">
+<p> Team Member </p>
+</h2>
+<br/>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Project/Team 1.jpg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Project/Team 2.jpg"/>
+</a>
+<a class="work__img" href="">
+<img alt="" loading="lazy" src="images/Project/Team 3.jpg"/>
+</a>
+</div>
+
+</section>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<br/>
+<h2 align="center">
+<p> Attached With </p>
+</h2>
+<br/>
+<div class="logo-slider">
+<div class="logo-slide-track">
+<div class="logo-slide">
+<img alt="" height="100" loading="lazy" src="images/Other Photo/Mathematical Olympiad 2025.jpg" width="250">
+</img></div>
+<div class="logo-slide">
+<img alt="" height="100" loading="lazy" src="images/Other Photo/bdapps.png" width="250">
+</img></div>
+<div class="logo-slide">
+<img alt="" height="100" loading="lazy" src="images/Other Photo/YUNet.png" width="250">
+</img></div>
+<div class="logo-slide">
+<img alt="" height="100" loading="lazy" src="images/Other Photo/BASIS Students' Forum of BUBT Chapter.png" width="250">
+</img></div>
+<div class="logo-slide">
+<img alt="" height="100" loading="lazy" src="images/Other Photo/IEEE.png" width="250">
+</img></div>
+<div class="logo-slide">
+<img alt="" height="100" loading="lazy" src="images/Other Photo/10 Minute School.png" width="250">
+</img></div>
+<div class="logo-slide">
+<img alt="" height="100" loading="lazy" src="images/Other Photo/BUBT IT Club.jpg" width="250">
+</img></div>
+<div class="logo-slide">
+<img alt="" height="100" loading="lazy" src="images/Other Photo/BITPA.jpg" width="250">
+</img></div>
+<div class="logo-slide">
+<img alt="" height="100" loading="lazy" src="images/Other Photo/bdapps.png" width="250">
+</img></div>
+<div class="logo-slide">
+<img alt="" height="100" loading="lazy" src="images/Other Photo/Mathematical Olympiad 2025.jpg" width="250">
+</img></div>
+<div class="logo-slide">
+<img alt="" height="100" loading="lazy" src="images/Other Photo/YUNet.png" width="250">
+</img></div>
+<div class="logo-slide">
+<img alt="" height="100" loading="lazy" src="images/Other Photo/BASIS Students' Forum of BUBT Chapter.png" width="250">
+</img></div>
+<div class="logo-slide">
+<img alt="" height="100" loading="lazy" src="images/Other Photo/IEEE.png" width="250">
+</img></div>
+<div class="logo-slide">
+<img alt="" height="100" loading="lazy" src="images/Other Photo/10 Minute School.png" width="250">
+</img></div>
+<div class="logo-slide">
+<img alt="" height="100" loading="lazy" src="images/Other Photo/BUBT IT Club.jpg" width="250">
+</img></div>
+<div class="logo-slide">
+<img alt="" height="100" loading="lazy" src="images/Other Photo/BITPA.jpg" width="250">
+</img></div>
+<div class="logo-slide">
+<img alt="" height="100" loading="lazy" src="images/Other Photo/bdapps.png" width="250">
+</img></div>
+</div>
+</div>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--===== CONTACT =====-->
+<section class="contact section" id="contact">
+<h2 class="section-title">Contact</h2>
+<br/>
+<div class="contact__container bd-grid">
+<div class="contact-info">
+<i class="fas fa-map-marker-alt contact-icon"></i>
+<span class="contact-text">Mirpur-1, Dhaka, Bangladesh</span>
+</div>
+<div class="contact-info">
+<i class="fas fa-phone-alt contact-icon"></i>
+<span class="contact-text"><a href="https://me-qr.com/7ubxnX7U" target="_blank" title="Give me a call">+8801571357714</a></span>
+</div>
+<div class="contact-info">
+<i class="fas fa-envelope contact-icon"></i>
+<span class="contact-text"><a href="mailto:#" title="Send me an email">contactutsob@gmail.com</a></span>
+</div>
+</div>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--===== FOOTER =====-->
+<footer class="footer">
+<p class="footer__title"></p>
+<div class="footer__social">
+<a class="footer__icon" href="https://www.facebook.com/utsob101" target="_blank"><i class="bx bxl-facebook"></i></a>
+<a class="footer__icon" href="https://www.linkedin.com/in/utsob/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+<a class="footer__icon" href="https://x.com/utsob1010" target="_blank"><i class="bx bxl-twitter"></i></a>
+<a class="footer__icon" href="https://github.com/utsob101" target="_blank"><i class="bx bxl-github"></i></a>
+</div>
+<p class="footer__copy">2024 All Rights Reserved</p>
+</footer>
+<!--===== SCROLL REVEAL =====-->
+<script src="https://unpkg.com/scrollreveal"></script>
+<!--===== MAIN JS =====-->
+<script src="script.js"></script>
+</main></body>
+</html>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
