@@ -264,8 +264,10 @@ img {
 }
 
 .button:hover {
-  box-shadow: rgba(17, 17, 26, 0.3) 0px 8px 24px,
-    rgba(17, 17, 26, 0.3) 0px 16px 56px, rgba(17, 17, 26, 0.3) 0px 24px 80px;
+  box-shadow:
+    rgba(17, 17, 26, 0.3) 0px 8px 24px,
+    rgba(17, 17, 26, 0.3) 0px 16px 56px,
+    rgba(17, 17, 26, 0.3) 0px 24px 80px;
   background-color: var(--second-color);
 }
 
@@ -385,6 +387,41 @@ img {
 .work__img:hover {
   transform: scale(1.1);
 }
+
+/* ========================================================
+   CERTIFICATE FRAMES (নতুন যুক্ত করা কোড)
+   ======================================================== */
+/* ১. সার্টিফিকেটের মেইন কন্টেইনার (এটি শুধু চারপাশের জায়গা ধরে রাখবে) */
+.certificate-frame {
+  display: block;
+
+  /* ফ্রেমটি যেহেতু বাইরের দিকে বাড়বে, তাই অন্য এলিমেন্ট থেকে দূরত্ব বজায় রাখতে মার্জিন দেওয়া হলো */
+  margin: 5px !important;
+
+  transition: transform 0.3s ease;
+}
+
+/* ২. ভেতরের মূল সার্টিফিকেট ইমেজ (আসল ম্যাজিক এখানে) */
+.certificate-frame img {
+  width: 100% !important;
+  height: auto !important;
+  display: block;
+
+  /* এটি আপনার সার্টিফিকেটের কোনাগুলোকে সুন্দর গোল করবে */
+  border-radius: 12px !important;
+
+  /* 🚀 ইমেজের সাইজ অক্ষত রেখে ফ্রেম সম্পূর্ণ বাইরের দিকে বাড়ানোর আলটিমেট ট্রিক */
+  box-shadow:
+    0 0 0 8px #000000,
+    /* ছবির বাইরের দিকে ২৫ পিক্সেল চওড়া সলিড কালো ফ্রেম */ 0px 25px 45px 5px
+      rgba(0, 0, 0, 0.45); /* সেই কালো ফ্রেমের বাইরের সফট ব্লার শ্যাডো বা ছায়া */
+}
+
+/* ৩. মাউস নিলে সুন্দরভাবে উপরে ওঠার অ্যানিমেশন */
+.certificate-frame:hover {
+  transform: translateY(-8px);
+}
+/* ======================================================== */
 
 /* Contact Info */
 .contact {
