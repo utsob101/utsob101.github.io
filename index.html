@@ -1,0 +1,374 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta content="light" name="color-scheme" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="//cdnjs.cloudflare.com" rel="dns-prefetch" />
+    <link href="//cdn.jsdelivr.net" rel="dns-prefetch" />
+    <link href="//fonts.googleapis.com" rel="dns-prefetch" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="style.css" rel="stylesheet" />
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <title>Home | Muntasir Ayan Utsob</title>
+    <link href="images/Other Photo/Utsob.png" rel="icon" type="image/png" />
+    <meta
+      content="Official portfolio of Muntasir Ayan Utsob - Software Developer, Programmer, AI Enthusiast and Technology Enthusiast."
+      name="description"
+    />
+    <meta content="Muntasir Ayan Utsob" name="author" />
+    <meta content="#4070F4" name="theme-color" />
+    <meta content="index,follow" name="robots" />
+    <meta
+      content="Muntasir Ayan Utsob, Portfolio, Software Developer, Programmer, AI, Cyber Security, Bangladesh"
+      name="keywords"
+    />
+    <meta content="Muntasir Ayan Utsob Portfolio" property="og:title" />
+    <meta
+      content="Software Developer | Programmer | AI Enthusiast"
+      property="og:description"
+    />
+    <meta content="website" property="og:type" />
+    <meta content="images/Other Photo/Utsob.png" property="og:image" />
+    <link href="https://utsob101.github.io/" rel="canonical" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="Muntasir Ayan Utsob Portfolio" name="twitter:title" />
+    <meta
+      content="Software Developer | Programmer | AI Enthusiast"
+      name="twitter:description"
+    />
+    <meta
+      content="https://utsob101.github.io/images/Other%20Photo/Utsob.png"
+      name="twitter:image"
+    />
+  </head>
+  <body>
+    <div id="progress-bar"></div>
+    <button id="backToTop" title="Go to top">
+      <i class="bx bx-up-arrow-alt"> </i>
+    </button>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link active" href="#home"> About </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="certificate.html"> Certificate </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="skills.html"> Skills </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="experience.html"> Experience </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="photo.html"> Photo </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="project.html"> Project </a>
+            </li>
+            <li class="nav__item">
+             <a class="nav__link" href="seminar.html"> Seminar </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="video.html"> Video </a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"> </i>
+        </div>
+      </nav>
+    </header>
+    <main class="l-main">
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Assalamualaikum
+            <br />
+            I'm
+            <span class="home__title-color"> Muntasir Ayan Utsob </span>
+            <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+            <br />
+            <!-- Element to contain animated typing -->
+            <span id="typing-animation"> </span>
+            <script>
+              // Initialize the typing animation
+              const typingAnimationElement =
+                document.getElementById("typing-animation");
+
+              // Create an array of typing text
+              const typingTexts = [
+                "Problem Solver ",
+                "Programmer  ",
+                "AI Enthusiast  ",
+                "Cyber Security Enthusiast",
+                "Tech Enthusiast",
+                "Digital Marketer",
+              ];
+
+              // Create a function to display the typing animation for a given text
+              function playTypingAnimation(text) {
+                // Loop through each character and add it to the element
+                for (let i = 0; i < text.length; i++) {
+                  setTimeout(() => {
+                    if (typingAnimationElement.textContent === "|")
+                      typingAnimationElement.textContent = "";
+                    typingAnimationElement.textContent += text[i];
+                  }, i * 200); // Increase the delay to slow down the typing animation
+                }
+
+                // Once the animation is complete, reset the text and start over
+                setTimeout(() => {
+                  typingAnimationElement.textContent = "|";
+                  playTypingAnimation(
+                    typingTexts[
+                      (typingTexts.indexOf(text) + 1) % typingTexts.length
+                    ],
+                  );
+                }, text.length * 200);
+              }
+
+              // Start the typing animation loop
+              playTypingAnimation(typingTexts[0]);
+            </script>
+          </h1>
+          <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+          <a
+            aria-label="Contact Muntasir Ayan Utsob on LinkedIn"
+            class="button"
+            href="https://www.linkedin.com/in/utsob/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Contact me
+          </a>
+        </div>
+        <div class="home__social">
+          <a
+            aria-label="LinkedIn Profile"
+            class="home__social-icon"
+            href="https://www.linkedin.com/in/utsob/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i class="bx bxl-linkedin"> </i>
+          </a>
+          <a
+            aria-label="Facebook Profile"
+            class="home__social-icon"
+            href="https://www.facebook.com/utsob101"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i class="bx bxl-facebook"> </i>
+          </a>
+          <a
+            aria-label="X Profile"
+            class="home__social-icon"
+            href="https://x.com/utsob1010"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i class="bx bxl-twitter"> </i>
+          </a>
+          <a
+            aria-label="GitHub Profile"
+            class="home__social-icon"
+            href="https://github.com/utsob101"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i class="bx bxl-github"> </i>
+          </a>
+        </div>
+        <div class="home__img">
+          <svg
+            class="home__blob"
+            viewbox="0 0 479 467"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <mask id="mask0" mask-type="alpha">
+              <path
+                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+              ></path>
+            </mask>
+            <g mask="url(#mask0)">
+              <path
+                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+              ></path>
+              <image
+                class="home__blob-img"
+                decoding="async"
+                fetchpriority="high"
+                href="images/Other Photo/Utsob_1.png"
+                x="50"
+                y="60"
+              />
+            </g>
+          </svg>
+        </div>
+      </section>
+      <br />
+      
+      <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+      <!--Image carousel-->
+      <div class="slider">
+        <div class="slides">
+          <!--Radio Buttons-->
+          <input id="radio1" name="radio-btn" type="radio" />
+          <input id="radio2" name="radio-btn" type="radio" />
+          <input id="radio3" name="radio-btn" type="radio" />
+          <input id="radio4" name="radio-btn" type="radio" />
+          <!--Fim Radio Buttons-->
+          <!--Slides em imagens-->
+          <div class="slide first">
+            <img
+              alt="NASA Space Apps Challenge event photo"
+              loading="lazy"
+              src="images/Photo Gallery/NASA 1.jpg"
+            />
+          </div>
+          <div class="slide">
+            <img
+              alt="BITPA event photo 1"
+              loading="lazy"
+              src="images/Photo Gallery/BITPA 1.jpg"
+            />
+          </div>
+          <div class="slide">
+            <img
+              alt="BITPA event photo 2"
+              loading="lazy"
+              src="images/Photo Gallery/BITPA 2.jpg"
+            />
+          </div>
+          <div class="slide">
+            <img
+              alt="BITPA event photo 4"
+              loading="lazy"
+              src="images/Photo Gallery/BITPA 4.jpg"
+            />
+          </div>
+          <!--Fim Slides em imagens-->
+          <!--Bolinhas de navegação-->
+          <div class="navegacao-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+        </div>
+        <div class="manual-navegacao">
+          <label class="manual-btn" for="radio1"> </label>
+          <label class="manual-btn" for="radio2"> </label>
+          <label class="manual-btn" for="radio3"> </label>
+          <label class="manual-btn" for="radio4"> </label>
+        </div>
+      </div>
+      <script src="script.js"></script>
+      <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+      <!--===== Quote =====-->
+      <section class="home bd-grid quote" id="quote">
+        <div class="home__data">
+          <h3 align="center">
+            <b>
+              “There is no end to education. It is not that you read a book,
+              pass an examination, and finish with education. The whole of life,
+              from the moment you are born to the moment you die, is a process
+              of learning.” — Jiddu Krishnamurti
+            </b>
+          </h3>
+        </div>
+      </section>
+      <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+      
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img
+              alt="Portrait of Muntasir Ayan Utsob"
+              loading="lazy"
+              src="images/Other Photo/Utsob.png"
+            />
+          </div>
+          <div class="about_text_container">
+            <h2 class="about__subtitle">I'm Muntasir Ayan Utsob</h2>
+            <p class="about__text">
+Dedicated and detail-oriented Software Quality Assurance (SQA) Professional with a strong passion for delivering flawless, high-performance software products. I specialize in the complete software testing life cycle (STLC), including requirement analysis, test planning, execution, and defect management. With hands-on expertise in both manual and automated testing, I am highly skilled in API testing, functional testing, and UI/UX validation. Proficient in industry-standard tools like Selenium, Postman, and Jira, I thrive in Agile/Scrum environments. My core strength lies in analyzing complex systems, uncovering edge-case scenarios, and collaborating closely with cross-functional development teams to ensure every release meets the highest quality standards.
+            </p>
+            <br />
+            <p align="left">
+              <a
+                class="button"
+                href="https://www.linkedin.com/in/utsob/"
+                target="_blank"
+              >
+                Learn More!
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+      <!--===== FOOTER =====-->
+      <footer class="footer">
+
+        <div class="contact__container bd-grid">
+          <div class="contact-info">
+            <i class="fas fa-map-marker-alt contact-icon"></i>
+            <span class="contact-text"> Mirpur-1, Dhaka, Bangladesh </span>
+          </div>
+
+          <div class="contact-info">
+            <i class="fas fa-phone-alt contact-icon"></i>
+            <span class="contact-text">
+              <a
+                href="https://me-qr.com/7ubxnX7U"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                +8801571357714
+              </a>
+            </span>
+          </div>
+
+          <div class="contact-info">
+            <i class="fas fa-envelope contact-icon"></i>
+            <span class="contact-text">
+              <a href="mailto:contactutsob@gmail.com">
+                contactutsob@gmail.com
+              </a>
+            </span>
+          </div>
+        </div>
+      </section>
+<br>
+        <p class="footer__copy">
+          © 2026 Muntasir Ayan Utsob. All Rights Reserved.
+        </p>
+      </footer>
+      <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    </main>
+    <script src="https://unpkg.com/scrollreveal"></script>
+<script src="script.js"></script>
+  </body>
+</html>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
